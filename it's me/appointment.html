@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Book Appointment</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+
+<section class="appointment-page">
+
+<h1 style="margin-top: 200px;">Book an Appointment with Nishant</h1>
+
+<form action="appointment.php" method="POST" class="appoint-form">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Email Address" required>
+
+<input type="date" name="date" required>
+
+<select style="padding: 12px;border-radius: 8px;margin-top: 8px;margin-bottom: 8px;" name="time" required>
+
+<option value="">Select Time</option>
+
+<option value="09:00 AM">09:00 AM</option>
+<option value="10:00 AM">10:00 AM</option>
+<option value="11:00 AM">11:00 AM</option>
+<option value="12:00 PM">12:00 PM</option>
+<option value="01:00 PM">01:00 PM</option>
+<option value="02:00 PM">02:00 PM</option>
+<option value="03:00 PM">03:00 PM</option>
+<option value="04:00 PM">04:00 PM</option>
+<option value="05:00 PM">05:00 PM</option>
+
+</select>
+
+<textarea name="message" placeholder="Purpose of Appointment"></textarea>
+
+<button type="submit">Book Appointment</button>
+
+</form>
+
+</section>
+
+</body>
+
+</html>
